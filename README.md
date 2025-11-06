@@ -101,7 +101,7 @@ O mais importante é demonstrar seu entendimento e compartilhar sua jornada de a
    pip install -r requirements.txt
    ```
 
-4. Duple o arquivo `env-example` para o nome `.env` com as seguintes variáveis (preencha com seus dados do Azure OpenAI):
+4. Duple o arquivo `env-example` para o nome `backend/.env` com as seguintes variáveis (preencha com seus dados do Azure OpenAI):
    ```env
    AZURE_OPENAI_API_KEY=xxxxxx
    AZURE_OPENAI_ENDPOINT=https://<seu-endpoint>.openai.azure.com/
@@ -115,3 +115,11 @@ O mais importante é demonstrar seu entendimento e compartilhar sua jornada de a
    ```
 
    O backend estará disponível em http://localhost:8001
+
+### 4. Testando backend
+
+Com a ferramenta de teste de API da sua preferência, faça uma chamada `POST` para o endpoint `localhost:8001/api/v1/analyze/`, informando os campos `image`, `application_type` e `description`.
+
+**Exemplo utilizando o Insomnia**
+
+<img src="./imagens/teste-endpoint-analisar.png?raw=true" />

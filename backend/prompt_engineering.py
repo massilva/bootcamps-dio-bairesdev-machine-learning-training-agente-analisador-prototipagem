@@ -1,7 +1,7 @@
 
 class PromptEngineer:
     @staticmethod
-    def build_prompt_analize_diagram(application_type: str, description: str):
+    def build_prompt_analyzes_prototyping(application_type: str, description: str):
         return f"""Aja como um especialista em engenharia de software e designer de produtos de software com mais de 20 anos de experiência 
         utilizando uma metodologia baseada em grandes autores Ian Sommerville, Marco Tulio Valente e Roger Pressman.
         Alinhada com as 10 heurísticas de Jakob Nielsen.
