@@ -123,3 +123,32 @@ Com a ferramenta de teste de API da sua preferência, faça uma chamada `POST` p
 **Exemplo utilizando o Insomnia**
 
 <img src="./imagens/teste-endpoint-analisar.png?raw=true" />
+
+**JSON de exemplo de respostas**
+
+<img src="./imagens/json-formatado.png?raw=true" />
+
+```json
+{
+   "resume":"Um aplicativo de delivery focado em produtos a base de café, permitindo aos usuários navegar, escolher, e encomendar itens de maneira simples e direta.",
+   "positives":[
+      "A interface tem um visual atraente e envolvente, com imagens de alta qualidade dos produtos.",
+      "A tela de detalhes permite uma visão clara das informações do produto, incluindo preço e avaliação.",
+      "Iniciativas de promoção como 'Compre um, leve outro grátis' incentivam as compras.",
+      "O fluxo de pedidos é bastante direto, com opções claras para entrega e coleta.",
+      "A visualização do rastreamento de entrega é intuitiva, mostrando a localização em tempo real do courie."
+   ],
+   "negatives":[
+      "Na tela de login, não há avisos ou mensagens de erro quando a autenticação falha, tornando difícil para o usuário entender o que ocorreu.",
+      "Não há um link ou botão para recuperação de senha na tela de login.",
+      "Falta um onboarding inicial claro que explique todas as funcionalidades antes da tela inicial.",
+      "Na tela inicial, não é apresentado um estado vazio ou uma mensagem adequada quando não há produtos disponíveis.",
+      "A tela de listagem apresenta muitas informações de uma só vez, sem filtros ou categorização adequados que possam facilitar a navegação.",
+      "Na tela de detalhes do item, a descrição do produto é longa e pode causar confusão, seria ideal utilizar colapsos ou botões de 'mostrar mais'.",
+      "A opção de 'Editar Endereço' na tela de pedidos não é clara, pois ainda está oculta atrás de um menu, fora da visão direta do usuário.",
+      "A tela de resumo do pedido não confirma se um desconto foi aplicado com clareza suficiente.",
+      "Não há indicação visual de que um item foi adicionado ao carrinho, o que pode confundir o usuário ao buscar realizar múltiplas encomendas.",
+      "A aplicação carece de feedback visual ou auditivo em ações como 'pedido realizado', tornando a experiência um pouco menos envolvente."
+   ]
+}
+```
