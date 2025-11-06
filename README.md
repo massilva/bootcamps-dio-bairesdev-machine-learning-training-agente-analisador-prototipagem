@@ -111,7 +111,7 @@ O mais importante é demonstrar seu entendimento e compartilhar sua jornada de a
 
 5. Execute o backend:
    ```bash
-   uvicorn main:app --reload --host 0.0.0.0 --port 8001
+   uvicorn backend.app:app --reload --host 0.0.0.0 --port 8001
    ```
 
    O backend estará disponível em http://localhost:8001
